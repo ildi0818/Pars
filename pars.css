@@ -1,0 +1,103 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+}
+
+.tartalom {
+    width: 1000px;
+    background-color: #fbf9ea;
+    color: #444;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    letter-spacing: 0.1rem;
+}
+
+h3 {
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: brown;
+}
+
+.foKepek {
+    width: 20rem;
+    box-shadow: 5px 5px #666;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr td {
+    border: 1px solid darkblue;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(2),
+tr:nth-of-type(8),
+tr:nth-of-type(9) {
+    background-color: gold;
+}
+
+tr:nth-of-type(4),
+tr:nth-of-type(5) {
+    background-color: silver;
+}
+
+tr:nth-of-type(7) {
+    background-color: salmon;
+    color: white;
+}
+
+#forras {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+#urlap {
+    border: 3px dotted darkblue;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#erem {
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
